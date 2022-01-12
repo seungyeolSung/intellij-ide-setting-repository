@@ -1,9 +1,8 @@
 <templateSet group="Java">
-  <template name="commantClass" value="/**&#10; * packageName    : $package$&#10; * fileName       : $class$&#10; * author         : $user$&#10; * date           : $date$&#10; * description    :&#10; */" description="Comment for Class" toReformat="false" toShortenFQNames="true">
+  <template name="commantClass" value="/**&#10; * packageName    : $package$&#10; * fileName       : $class$&#10; * description    :&#10; * author         : $user$&#10; */" description="Comment for Class" toReformat="false" toShortenFQNames="true">
     <variable name="package" expression="currentPackage()" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="fileName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
