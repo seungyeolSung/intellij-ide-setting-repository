@@ -1,5 +1,6 @@
 <templateSet group="user">
-  <template name="tdd" value="@Test&#10;public void $name$() throws Exception{&#10;&#10;    //given&#10;    $END$&#10;    //when&#10;    &#10;    //then&#10;&#10;}" description="tdd" toReformat="false" toShortenFQNames="true">
+  <template name="tdd" value="@Test&#10;@DisplayName($displayName$)&#10;public void $name$() throws Exception{&#10;&#10;    //given&#10;    $END$&#10;    //when&#10;    &#10;    //then&#10;&#10;}" description="tdd" toReformat="false" toShortenFQNames="true">
+    <variable name="displayName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
