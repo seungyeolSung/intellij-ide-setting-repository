@@ -4,7 +4,7 @@
       <artifact id="H2" name="H2" use="true" version="1.4.200" />
     </driver>
     <driver id="mariadb">
-      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.7.3" />
+      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="3.0.7" />
     </driver>
   </component>
 </application>
