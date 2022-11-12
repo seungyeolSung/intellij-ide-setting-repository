@@ -5,9 +5,9 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.xml</mask>
-    <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.java</mask>
+    <mask>*.jsp</mask>
   </component>
 </application>
